@@ -30,8 +30,8 @@ public class LoginPageTest extends BaseTest {
 	@Test(priority = 6)
 	public void loginPageHeaderTest() {
 		//loginPage.getLoginPageTitle();
-		String actualTitle = "Open Cart";
-		Assert.assertEquals(actualTitle, "Open Cart11");
+		String actualTitle = "naveenopencart";
+		Assert.assertEquals(actualTitle, "naveenopencart");
 	}
 	
 	
