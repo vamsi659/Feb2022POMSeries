@@ -19,6 +19,7 @@ public class RegisterTest extends BaseTest {
 	}
 	
 	
+	
 	public String getRandomEmailId() {
 		Random random = new Random();
 		String email = "febautomation"+random.nextInt(1000)+"@gmail.com";
