@@ -7,8 +7,8 @@ public class Constants {
 
 	public static final String LOGIN_PAGE_TITLE = "Account Login";
 	public static final String LOGIN_PAGE_URL_FRACTION = "route=account/login";
-	public static final String ACCOUNTS_PAGE_TITLE = "My Account";
-	public static final String ACCOUNTS_PAGE_HEADER = "naveenopencart";
+	public static final String ACCOUNTS_PAGE_TITLE = "Account Login";
+	public static final String ACCOUNTS_PAGE_HEADER = "";
 	public static final String ACCOUNTS_PAGE_URL_FRACTION = "route=account/account";
 
 	public static final List<String> ACCOUNTS_PAGE_SECTIONS_HEADER_LIST = Arrays.asList("My Account", "My Orders",

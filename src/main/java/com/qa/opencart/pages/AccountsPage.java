@@ -15,7 +15,7 @@ public class AccountsPage {
 	private WebDriver driver;
 	private ElementUtil eleUtil;
 
-	private By header = By.cssSelector("div#logo h1 a");
+	private By header = By.cssSelector("div#logo a");
 	private By accountSectionsHeader = By.cssSelector("div#content h2");
 	private By logoutLink = By.linkText("Logout");
 	private By search = By.name("search");

@@ -22,19 +22,19 @@ public class AccountsPageTest extends BaseTest {
 		accPage = new AccountsPage(driver);
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void accPageTitleTest() {
 		Assert.assertEquals(accPage.getAccPageTitle(), Constants.ACCOUNTS_PAGE_TITLE);
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void accPageHeaderTest() {
 		String accPageHeader = accPage.getAccPageHeader();
 		System.out.println("Acc Page header: " + accPageHeader);
 		Assert.assertEquals(accPageHeader, Constants.ACCOUNTS_PAGE_HEADER);
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = false)  //fix required not working
 	public void accPageSectionsHeaderTest() {
 		List<String> actualAccSecList = accPage.getAccountSectionsList();
 		System.out.println("Actual Acc Page Sections Headers: " + actualAccSecList);
@@ -43,7 +43,7 @@ public class AccountsPageTest extends BaseTest {
 		Assert.assertEquals(actualAccSecList, Constants.ACCOUNTS_PAGE_SECTIONS_HEADER_LIST);
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = false) //fix required not working
 	public void isUserLoggedOutTest() {
 		accPage.clickOnLogout();
 		Assert.assertEquals(loginPage.getLogoutMessage(), Constants.USER_LOGOUT_MESSAGE);
