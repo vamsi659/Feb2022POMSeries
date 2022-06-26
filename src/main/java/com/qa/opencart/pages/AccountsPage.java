@@ -28,6 +28,10 @@ public class AccountsPage {
 	public String getAccPageTitle() {
 		return eleUtil.waitForTitleIs(Constants.ACCOUNTS_PAGE_TITLE, Constants.DEFAULT_TIME_OUT);
 	}
+	
+	public String getAccPageLoginTitle() {
+		return eleUtil.waitForTitleIs(Constants.ACCOUNTS_PAGE_LOGIN_TITLE, Constants.DEFAULT_TIME_OUT);
+	}
 
 	public String getAccPageUrl() {
 		return eleUtil.waitForUrlContains(Constants.ACCOUNTS_PAGE_URL_FRACTION, Constants.DEFAULT_TIME_OUT);

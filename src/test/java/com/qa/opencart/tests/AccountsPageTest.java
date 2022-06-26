@@ -23,8 +23,8 @@ public class AccountsPageTest extends BaseTest {
 	}
 
 	@Test(enabled = true)
-	public void accPageTitleTest() {
-		Assert.assertEquals(accPage.getAccPageTitle(), Constants.ACCOUNTS_PAGE_TITLE);
+	public void accPageTitleLoginTest() {
+		Assert.assertEquals(accPage.getAccPageLoginTitle(), Constants.ACCOUNTS_PAGE_LOGIN_TITLE);
 	}
 
 	@Test(enabled = true)
